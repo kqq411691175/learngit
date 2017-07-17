@@ -5,17 +5,18 @@ git config --global user.name kqq
 git config --global user.email 411691175@qq.com
 
 cd desktop
-mkdir learngit
-cd learngit
-pwd
-git init
-ls -ah
-git add xxx.txt
-git commit -m "xxxxxx"
-git status
-git diff readme.txt
+mkdir learngit                创建一个目录
+cd learngit                   cd到当前目录下
+pwd                           用于显示当前目录
+git init                      把这个目录变成Git可以管理的仓库
+ls -ah                        目录默认是隐藏的，用ls -ah命令就可以看见
+git add xxx.txt               把文件提交到暂存区
+git commit -m "xxxxxx"        把文件提交到仓库
+git status                    掌握仓库当前的状态
+git diff readme.txt           查看difference
 
-git log --pretty=oneline
-git reset --hard HEAD^
-git reset --hard 3628164
-cat readme.txt
+git log --pretty=oneline      命令显示从最近到最远的提交日志
+git reset --hard HEAD^        回退到上一个版本
+git reset --hard 3628164      可以指定回到未来的某个版本
+cat readme.txt                看看readme.txt的内容
+git reflog                    用来记录你的每一次命令
