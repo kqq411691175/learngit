@@ -12,3 +12,4 @@ git init
 ls -ah
 git add xxx.txt
 git commit -m "xxxxxx"
+git status
