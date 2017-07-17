@@ -20,3 +20,8 @@ git reset --hard HEAD^        回退到上一个版本
 git reset --hard 3628164      可以指定回到未来的某个版本
 cat readme.txt                看看readme.txt的内容
 git reflog                    用来记录你的每一次命令
+git checkout --xxx.txt        放弃修改文件
+git reset HEAD file           可以把暂存区的修改撤销，重新放回工作区
+git rm xxx.txt                删除文件
+
+git reset HEAD 然后 git checkout --xxx.txt  //放弃删除恢复文件
