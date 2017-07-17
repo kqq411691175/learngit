@@ -15,4 +15,6 @@ git commit -m "xxxxxx"
 git status
 git diff readme.txt
 
-aaaaaaaaaaaa
+git log --pretty=oneline
+git reset --hard HEAD^
+git reset --hard 3628164
