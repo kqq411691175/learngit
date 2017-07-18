@@ -25,3 +25,9 @@ git reset HEAD file           可以把暂存区的修改撤销，重新放回工作区
 git rm xxx.txt                删除文件
 
 git reset HEAD 然后 git checkout --xxx.txt  //放弃删除恢复文件
+
+git remote add origin git@github.com:kqq411691175/learngit.git//本地关联到Github远程库
+git push -u origin master              //把本地库的所有内容推送到远程库上
+git push origin master        以后每次本地提交后推送到GitHub
+
+git clone git@github.com:kqq411691175/gitskills.git//远程库创建好后克隆到本地库
