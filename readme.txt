@@ -31,3 +31,19 @@ git push -u origin master              //把本地库的所有内容推送到远程库上
 git push origin master        以后每次本地提交后推送到GitHub
 
 git clone git@github.com:kqq411691175/gitskills.git//远程库创建好后克隆到本地库
+
+gitremote rm origin           移除原来的远程库,取消关联
+
+Git鼓励大量使用分支:
+
+查看分支：git branch
+
+创建分支：git branch <name>
+
+切换分支：git checkout <name>
+
+创建+切换分支：git checkout -b <name>
+
+合并某分支到当前分支：git merge <name>
+
+删除分支：git branch -d <name>
